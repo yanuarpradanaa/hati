@@ -53,7 +53,7 @@ section {
 #product .head,
 #materials .head,
 #material .head {
-  font-family: 'Cervanttis';
+  font-family: 'Cervanttis', sans-serif;
   margin-bottom: 20px;
 }
 
