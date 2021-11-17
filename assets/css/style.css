@@ -35,6 +35,14 @@ section {
   font-size: 50px;
 }
 
+@font-face {
+  font-family: 'Cervanttis';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Cervanttis'), url('https://fonts.cdnfonts.com/s/39155/Cervanttis-YjAa.woff') format('woff');
+}
+
+
 /* #product .thin, */
 /* #material .thin, */
 #feature .thin,
