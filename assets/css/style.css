@@ -813,7 +813,9 @@ nav ul li a{
   padding-left: 0;
   margin-right: auto;
   margin-left: auto;
-  background: url("../img/products/theme.jpg") bottom right no-repeat;
+  background: url("../img/content/honeycomb2.png") bottom right no-repeat;
+  /* back */
+  /* opacity: 5%; */
   background-size: cover;
 }
 
@@ -828,7 +830,7 @@ nav ul li a{
     width: 100%;
     min-height: 100vh;
     margin-top: 150px;
-    background: url("../img/products/theme.jpg") top right no-repeat;
+    background: url("../img/content/honeycomb2.png") top right no-repeat;
     background-size: cover;
   }
   
