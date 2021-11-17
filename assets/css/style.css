@@ -827,7 +827,7 @@ nav ul li a{
   #feature {
     width: 100%;
     min-height: 100vh;
-    margin-top: 80px;
+    margin-top: 150px;
     background: url("../img/products/theme.jpg") top right no-repeat;
     background-size: cover;
   }
