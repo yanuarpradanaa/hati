@@ -25,6 +25,13 @@ section {
   }
 }
 
+@font-face {
+  font-family: 'Cervanttis';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Cervanttis'), url('https://fonts.cdnfonts.com/s/39155/Cervanttis-YjAa.woff') format('woff');
+}
+
 @import url(../font/Cervanttis.ttf);
 @import url(../font/Atilla.ttf);
 @import url(../font/Atilla_Thin_Normal.ttf);
@@ -35,14 +42,6 @@ section {
   font-size: 50px;
   letter-spacing: 10px;
 }
-
-@font-face {
-  font-family: 'Cervanttis';
-  font-style: normal;
-  font-weight: 400;
-  src: local('Cervanttis'), url('https://fonts.cdnfonts.com/s/39155/Cervanttis-YjAa.woff') format('woff');
-}
-
 
 /* #product .thin, */
 /* #material .thin, */
@@ -77,8 +76,9 @@ p {
   bottom: 0;
   z-index: 9997;
   transition: all 0.5s;
-  padding: 15px;
+  padding: 38px;
   overflow-y: auto;
+  /* background-color: white; */
 }
 
 #header .logo img{
@@ -92,6 +92,7 @@ p {
     top: 40px;
     right:20px;
 }
+
 
 #header .offcanvas {
   width: 300px;
@@ -155,7 +156,7 @@ nav ul li a{
   align-items: center;
   color: rgb(153,153,153);
   margin-bottom: 20px;
-  margin-left: 30px;
+  margin-left: 4px;
   transition: 0.3s;
   border-radius: 50%;
   background: rgb(224, 224, 224);
@@ -315,7 +316,7 @@ nav ul li a{
 #about {
   width: 100%;
   float: right;
-  height: 110vh;
+  height: 115vh;
   background: url("../img/content/x3.jpg") bottom right no-repeat;
   background-size: cover;
   position: relative;
@@ -586,7 +587,6 @@ nav ul li a{
     align-items: center;
     justify-content: center;
     flex-direction: column;
-
     text-align: justify;
     text-justify: inter-word;
   }
@@ -608,8 +608,8 @@ nav ul li a{
     padding: 80px 0;
     color: white; 
     text-align: center;
-    overflow: hidden;
-    transition: transform .2s; /* Animation */
+    /* overflow: hidden;
+    transition: transform .2s; */
   }
 
   #material .row .mtrl2{
@@ -626,7 +626,7 @@ nav ul li a{
     color: white; 
     text-align: center;
     overflow: hidden;
-    transition: transform .2s; /* Animation */
+    /* transition: transform .2s; */
   }
 
   #material .row .mtrl3{
@@ -643,7 +643,7 @@ nav ul li a{
     color: white; 
     text-align: center;
     overflow: hidden;
-    transition: transform .2s; /* Animation */
+    /* transition: transform .2s; */
   }
 
   #material .row .mtrl4{
@@ -660,8 +660,9 @@ nav ul li a{
     color: white; 
     text-align: center;
     overflow: hidden;
-    transition: transform .2s; /* Animation */
+    /* transition: transform .2s; */
   }
+
 }
 
 #material .description h5 {
@@ -732,15 +733,15 @@ nav ul li a{
   color: white; 
   text-align: center;
   overflow: hidden;
-  transition: transform .2s; /* Animation */
+  /* transition: transform .2s; */
 }
 
-#material .mtrl1:hover, 
+/* #material .mtrl1:hover, 
 #material .mtrl2:hover,
 #material .mtrl3:hover,
 #material .mtrl4:hover {
-  transform: scale(1.3); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
-}
+  transform: scale(1.3);
+} */
 
 #material .mtrl2{
   /* margin-right: 100px; */
@@ -756,7 +757,7 @@ nav ul li a{
   color: white; 
   text-align: center;
   overflow: hidden;
-  transition: transform .2s; /* Animation */
+  /* transition: transform .2s; */
 }
 
 #material .mtrl3{
@@ -773,7 +774,7 @@ nav ul li a{
   color: white; 
   text-align: center;
   overflow: hidden;
-  transition: transform .2s; /* Animation */
+  /* transition: transform .2s; */
 }
 
 #material .mtrl4{
@@ -790,21 +791,8 @@ nav ul li a{
   color: white; 
   text-align: center;
   overflow: hidden;
-  transition: transform .2s; /* Animation */
+  /* transition: transform .2s; */
 }
-
-/* #material .mtrl4{
-  margin: 10px;
-  height: 150px;
-  border-radius: 40px;
-  width: calc(100% - 40px);
-  background: url("../img/products/mtrl4.png") bottom right no-repeat;
-  background-size: cover;
-  font-size: 2.5em;
-  font-weight: bold;
-  color: white;
-  text-align: center;
-} */
 
 /* Feature webview */
 #feature {
@@ -814,7 +802,7 @@ nav ul li a{
   padding-left: 0;
   margin-right: auto;
   margin-left: auto;
-  background: url("../img/content/honeycomb2.png") bottom right no-repeat;
+  background: url("../img/content/bg-concept.jpg") bottom right no-repeat;
   /* back */
   /* opacity: 5%; */
   background-size: cover;
@@ -902,6 +890,7 @@ nav ul li a{
   #contact iframe{
     margin-top: 40px;
   }
+
 }
 
 /*--banner-bottom-*/
@@ -933,4 +922,141 @@ background-color: #99abd5;
   width: 53%;
   margin: 1em auto 0;
   line-height: 1.8em;
+}
+
+
+
+#material .portfolio-item {
+  position: relative;
+  overflow: hidden;
+  margin-bottom: 30px;
+}
+#material .portfolio-item .portfolio-wrap {
+  overflow: hidden;
+  position: relative;
+  border-radius: 6px;
+  margin: 0;
+}
+#material .portfolio-item .portfolio-wrap:hover img {
+  opacity: 0.4;
+  transition: 0.3s;
+}
+#material .portfolio-item .portfolio-wrap .portfolio-info {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  opacity: 0;
+  transition: 0.2s linear;
+}
+#material .portfolio-item .portfolio-wrap .portfolio-info h4 {
+  font-size: 22px;
+  line-height: 1px;
+  font-weight: 700;
+  margin-bottom: 14px;
+  color: white;
+  padding-bottom: 0;
+}
+#material .portfolio-item .portfolio-wrap .portfolio-info h4 a {
+  color: #fff;
+}
+#material .portfolio-item .portfolio-wrap .portfolio-info h4 a:hover {
+  color: rgb(236, 25, 46);
+}
+#material .portfolio-item .portfolio-wrap .portfolio-info p {
+  padding: 0;
+  margin: 0;
+  color: #e2effe;
+  font-weight: 500;
+  font-size: 14px;
+  text-transform: uppercase;
+}
+#material .portfolio-item .portfolio-wrap .portfolio-info .link-preview, #material .portfolio-item .portfolio-wrap .portfolio-info .link-details {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  line-height: 1;
+  width: 36px;
+  height: 36px;
+  background: gray;
+  border-radius: 50%;
+  margin: 10px 4px 0 4px;
+}
+#material .portfolio-item .portfolio-wrap .portfolio-info .link-preview i, #material .portfolio-item .portfolio-wrap .portfolio-info .link-details i {
+  font-size: 22px;
+  color: #fff;
+  line-height: 0;
+}
+#material .portfolio-item .portfolio-wrap .portfolio-info .link-preview:hover, #material .portfolio-item .portfolio-wrap .portfolio-info .link-details:hover {
+  background: #95999c;
+}
+#material .portfolio-item .portfolio-wrap .portfolio-info .link-preview:hover i, #material .portfolio-item .portfolio-wrap .portfolio-info .link-details:hover i {
+  color: #fff;
+}
+#material .portfolio-item .portfolio-wrap:hover {
+  background: #a7a7a7;
+}
+#material .portfolio-item .portfolio-wrap:hover .portfolio-info {
+  opacity: 1;
+}
+
+/*--------------------------------------------------------------
+# Portfolio Details
+--------------------------------------------------------------*/
+.portfolio-details {
+  padding-top: 40px;
+}
+.portfolio-details .portfolio-details-slider img {
+  width: 100%;
+}
+.portfolio-details .portfolio-details-slider .swiper-pagination {
+  margin-top: 20px;
+  position: relative;
+}
+.portfolio-details .portfolio-details-slider .swiper-pagination .swiper-pagination-bullet {
+  width: 12px;
+  height: 12px;
+  background-color: #fff;
+  opacity: 1;
+  border: 1px solid #007bff;
+}
+.portfolio-details .portfolio-details-slider .swiper-pagination .swiper-pagination-bullet-active {
+  background-color: #007bff;
+}
+.portfolio-details .portfolio-info {
+  padding: 30px;
+  box-shadow: 0px 0 30px rgba(40, 61, 80, 0.08);
+}
+
+.portfolio-details .portfolio-info h3 {
+  font-size: 22px;
+  font-weight: 700;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #eee;
+}
+.portfolio-details .portfolio-info ul {
+  list-style: none;
+  padding: 0;
+  font-size: 15px;
+}
+.portfolio-details .portfolio-info ul li + li {
+  margin-top: 10px;
+}
+.portfolio-details .portfolio-description {
+  padding-top: 30px;
+}
+.portfolio-details .portfolio-description h2 {
+  font-size: 26px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+.portfolio-details .portfolio-description p {
+  padding: 0;
 }
