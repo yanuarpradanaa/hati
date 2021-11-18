@@ -65,6 +65,10 @@
     })
   }
 
+  const portfolioLightbox = GLightbox({
+    selector: '.portfolio-lightbox'
+  });
+
   /**
    * Mobile nav toggle
    */
