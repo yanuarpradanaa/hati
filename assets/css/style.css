@@ -485,7 +485,7 @@ nav ul li a{
   }
 }
 
-#product .content p {
+#product .content p, #material .quality p {
   text-align: justify;
   text-justify: inter-word;
 }
