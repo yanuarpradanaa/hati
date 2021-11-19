@@ -444,6 +444,64 @@ nav ul li a{
   flex-direction: column;
 }
 
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (-webkit-min-device-pixel-ratio: 1) {
+    #product{
+      margin-left: 7px;
+      /* padding-top: 15rem !important;
+      padding-right: 20px;
+      padding-left: 20px; */
+    }
+    #product .content {
+      margin-top: 70px;
+      margin-left: 220px;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      /* margin-left: 100px; */
+      /* margin-right: 15px; */
+    }
+    #product .content .head {
+      bottom: 0;
+      top: 0;
+      margin-left: auto;
+      margin-right: auto;
+      /* margin-top: 50px; */
+      width: 280px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+    }
+    #product .content .thin {
+      bottom: 0;
+      top: 0;
+      margin-left: auto;
+      margin-right: auto;
+      width: 280px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+    }
+    #product .content p {
+      bottom: 0;
+      top: 0;
+      margin-left: auto;
+      margin-right: auto;
+      width: 280px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+  
+      text-align: justify;
+      text-justify: inter-word;
+    }
+}
+
 @media (max-width: 992px) {
   #product{
     padding-top: 15rem !important;
