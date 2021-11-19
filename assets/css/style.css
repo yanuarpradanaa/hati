@@ -23,6 +23,13 @@ section {
     /* padding-left: 120px; */
     /* box-sizing: border-box; */
   }
+
+  @font-face {
+    font-family: 'Cervanttis';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Cervanttis'), url('https://fonts.cdnfonts.com/s/39155/Cervanttis-YjAa.woff') format('woff');
+  }
 }
 
 @font-face {
