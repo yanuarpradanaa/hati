@@ -460,6 +460,7 @@ nav ul li a{
       align-items: center;
       justify-content: center;
       flex-direction: column;
+      align-content: center;
       /* margin-left: 100px; */
       /* margin-right: 15px; */
     }
