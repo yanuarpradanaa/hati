@@ -443,6 +443,11 @@ nav ul li a{
     padding-top: 0px;
     height: 70vh;
   }
+
+  #product .cover {
+    margin-top: 3rem;
+    margin-left: 5px;
+  }
 }
 #product:before {
   content: "";
