@@ -506,7 +506,6 @@ nav ul li a{
       top: 0;
       margin-left: auto;
       margin-right: auto;
-      margin-bottom: 30px;
       width: 280px;
       display: flex;
       align-items: center;
@@ -629,6 +628,7 @@ nav ul li a{
     top: 0;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 30px;
     /* margin-top: 50px; */
     width: 280px;
     display: flex;
