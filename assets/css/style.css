@@ -1,7 +1,11 @@
 
 body {
     width: 100%;
-    scroll-snap-type: y mandatory;
+    /* scroll-snap-type: y mandatory; */
+}
+
+html{
+  scroll-snap-type: y mandatory;
 }
 
 section {
