@@ -1,17 +1,14 @@
 
 body {
     width: 100%;
-    /* scroll-snap-type: y mandatory; */
+    scroll-snap-type: y mandatory;
 }
 
 section {
   display: block;
   min-height:100vh;
-  /* scroll-snap-align: start; */
-  /* width:100%; */
-  /* padding: 60px; */
-  /* padding-left: 120px; */
-  /* box-sizing: border-box; */
+  scroll-snap-align: start;
+
 }
 
 @media (min-width: 992px) {
