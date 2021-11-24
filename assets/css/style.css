@@ -40,7 +40,7 @@ section {
 @import url('http://fonts.cdnfonts.com/css/cervanttis');
 
 .intro-text h1 {
-  font-family: 'Atilla', sans-serif;
+  font-family: 'Titillium Web';
   font-size: 50px;
   letter-spacing: 10px;
 }
@@ -49,11 +49,11 @@ section {
 /* #material .thin, */
 #feature .thin,
 #about .thin {
-  font-family: 'Atilla', sans-serif;
+  font-family: 'Titillium Web';
 }
 
 #header a {
-  font-family: 'Atilla', sans-serif;
+  font-family: 'Titillium Web';
 }
 
 #header a:hover {
@@ -68,7 +68,7 @@ section {
 }
 
 p {
-  font-family: 'Helvetica', sans-serif;
+  font-family: 'Titillium Web';
 }
 
 #header {
@@ -1084,6 +1084,7 @@ nav ul li a{
   font-weight: 700;
   margin-bottom: 5px;
   color: #45505b;
+  font-family: 'Titillium Web';
 }
 
 #contact .info p {
