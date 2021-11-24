@@ -792,7 +792,7 @@ nav ul li a{
     align-items: center;
     /* margin: 10vmin; */
     overflow: hidden;
-    transform: skew(-1deg);
+    transform: skew(-0.2deg);
   }
   #material .container .card {
     flex: 1;
