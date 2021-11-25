@@ -368,7 +368,7 @@
             }
             })
             var waypoint4 = new Waypoint({
-            element: document.getElementById('intro'),
+            element: document.getElementById('introMobile'),
             handler: function() {
                document.getElementById('logo').style.display = 'none';
             //    document.getElementById('logo2').style.display = 'block';
@@ -392,6 +392,13 @@
             element: document.getElementById('feature'),
             handler: function() {
                document.getElementById('logo').style.display = 'block';
+            //    document.getElementById('logo2').style.display = 'block';
+            }
+            })
+            var waypoint8 = new Waypoint({
+            element: document.getElementById('header'),
+            handler: function() {
+               document.getElementById('logo').style.display = 'none';
             //    document.getElementById('logo2').style.display = 'block';
             }
             })
