@@ -562,6 +562,7 @@ nav ul li a{
       align-items: center;
       justify-content: center;
       flex-direction: column;
+      font-family: 'Titillium Web';
     }
     #product .content p {
       bottom: 0;
@@ -686,6 +687,7 @@ nav ul li a{
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    font-family: 'Titillium Web';
   }
   #product .content p {
     bottom: 0;
@@ -1142,6 +1144,7 @@ nav ul li a{
 #feature .thin {
   font-family: 'Titillium Web';
   font-weight: bold;
+  font-size: 24px;
 }
 
 #feature p {
