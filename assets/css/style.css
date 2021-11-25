@@ -75,13 +75,6 @@ section {
   letter-spacing: 10px;
 }
 
-/* #product .thin, */
-/* #material .thin, */
-#feature .thin,
-#about .thin {
-  font-family: 'Titillium Web';
-}
-
 #header a {
   font-family: 'Titillium Web';
 }
@@ -408,6 +401,11 @@ nav ul li a{
   position: relative;
   /* padding: 0; */
 }
+
+#about .thin {
+  font-family: 'Titillium Web';
+}
+
 @media (min-width: 992px) {
   #about {
     padding-left: 160px;
@@ -1141,6 +1139,10 @@ nav ul li a{
   background-size: cover; */
 }
 
+#feature .thin {
+  font-family: 'Titillium Web';
+  font-weight: bold;
+}
 
 #feature p {
   color: #45505b;
