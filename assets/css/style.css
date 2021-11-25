@@ -7,6 +7,10 @@ html{
   scroll-snap-type: y mandatory;
 }
 
+.logo .logo2 {
+  display:none;
+}
+
 section {
   display: block;
   min-height:100vh;
@@ -166,6 +170,10 @@ nav ul li a{
   position: relative;
   white-space: nowrap;
 }
+.btn:focus{
+  box-shadow:none
+}
+
 .nav-menu a, .nav-menu a:focus {
   display: flex;
   align-items: center;
