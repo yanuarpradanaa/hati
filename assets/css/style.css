@@ -3,6 +3,32 @@ body {
     width: 100%;
 }
 
+/* ----------- Non-Retina Screens ----------- */
+@media screen 
+  and (min-device-width: 1200px) 
+  and (max-device-width: 1600px) 
+  and (-webkit-min-device-pixel-ratio: 1) {
+    section {
+      min-height: 100vh;
+      display: block;
+      scroll-snap-align: start;
+    }
+    
+}
+
+/* ----------- Retina Screens ----------- */
+@media screen 
+  and (min-device-width: 1200px) 
+  and (max-device-width: 1600px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (min-resolution: 192dpi) {
+    section {
+      min-height: 100vh;
+      display: block;
+      scroll-snap-align: start;
+    }
+}
+
 html{
   scroll-snap-type: y mandatory;
 }
@@ -14,7 +40,7 @@ html{
 section {
   display: block;
   min-height:100vh;
-  scroll-snap-align: start;
+  /* scroll-snap-align: start; */
 }
 
 @media (min-width: 992px) {
@@ -1200,7 +1226,7 @@ nav ul li a{
 
 @media (max-width: 992px) {
   #contact {
-    margin-top: 100px;
+    margin-top: 40rem;
   }
 
   #contact p {
