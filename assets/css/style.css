@@ -607,6 +607,11 @@ nav ul li a{
       margin-left: auto;
     }
 
+    #product .content .thin {
+      font-family: 'Titillium Web';
+      font-weight: bold;
+    }
+
     #feature {
       margin-top: 0px !important;
     }
@@ -638,9 +643,16 @@ nav ul li a{
     margin-left: auto;
   }
 
+  #product .content .thin {
+    font-family: 'Titillium Web';
+    font-weight: bold;
+  }
+
   #material {
     margin-top: 0px !important;
   }
+
+  
 
   #feature {
     width: 100%;
