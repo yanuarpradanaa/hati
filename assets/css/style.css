@@ -620,7 +620,7 @@ nav ul li a{
     margin-left: auto;
     background-size: cover;
     /* background-size: 100% auto !important; */
-    background: url(../img/content/honeycomb2.png) bottom right no-repeat !important;
+    /* background: url(../img/content/honeycomb2.png) bottom right no-repeat !important; */
   } 
   
 }
@@ -1122,13 +1122,24 @@ nav ul li a{
   text-justify: inter-word;
 }
 
+#feature .card{
+  border-radius: 20px;
+  transition: all 0.3s ease-in-out;
+}
+
+#feature .card:hover{
+  transform: translateY(-10px);
+}
+
 @media (max-width: 992px) {
   #feature {
     width: 100%;
     min-height: 100vh;
-    margin-top: 150px;
-    /* background: url("../img/content/honeycomb2.png") top right no-repeat;
-    background-size: cover; */
+    margin-top: 30rem;
+  }
+  
+  #feature .card{
+    margin-top: 30px;
   }
   
 }
