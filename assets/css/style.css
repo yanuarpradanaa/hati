@@ -860,200 +860,131 @@ transform: scale(2.0); /* (150% zoom - Note: if the zoom is too large, it will g
 }
 
 @media (max-width: 992px) {
-#material {
-  margin: 0;
-  min-height: 100vh;
-  font-family: sans-serif;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  /* margin-top: 10px; */
-  /* width: 100%; */
-  margin-top: 18rem;
-}
-#material .container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  /* margin: 10vmin; */
-  overflow: hidden;
-  transform: skew(-0.2deg);
-}
-#material .container .card {
-  flex: 1;
-  transition: all 1s ease-in-out;
-  height: 80vmin;
-  /* width: 80vmin; */
-  position: relative;
-}
-#material .container .card .card__head {
-  color: white;
-  background: #be2d2d;
-  padding: 0.5em;
-  /* transform: rotate(-90deg); */
-  transform-origin: 0% 0%;
-  transition: all 0.5s ease-in-out;
-  min-width: 100%;
-  text-align: center;
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  font-size: 1em;
-  white-space: nowrap;
-}
-#material .container .card:hover {
-  flex-grow: 4;
-}
-#material .container .card:hover img {
-  filter: grayscale(0);
-}
-#material .container .card:hover .card__head {
-  text-align: center;
-  top: calc(100% - 2em);
-  color: white;
-  font-size: 2em;
-  transform: rotate(0deg) skew(1deg);
-}
-#material .container .card img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  transition: all 1s ease-in-out;
-  /* filter: grayscale(100%); */
-}
+  #material {
+    margin: 0;
+    min-height: 100vh;
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 18rem;
+  }
+  #material .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    margin-top: 10rem;
+    transform: skew(-0.2deg);
+  }
+  #material .container .card {
+    flex: 1;
+    transition: all 1s ease-in-out;
+    height: 80vmin;
+    position: relative;
+  }
+  #material .container .card .card__head {
+    color: white;
+    background: #be2d2d;
+    padding: 0.5em;
+    /* transform: rotate(-90deg); */
+    transform-origin: 0% 0%;
+    transition: all 0.5s ease-in-out;
+    min-width: 100%;
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    font-size: 1em;
+    white-space: nowrap;
+  }
+  #material .container .card:hover {
+    flex-grow: 4;
+  }
+  #material .container .card:hover img {
+    filter: grayscale(0);
+  }
+  #material .container .card:hover .card__head {
+    text-align: center;
+    top: calc(100% - 2em);
+    color: white;
+    font-size: 2em;
+    transform: rotate(0deg) skew(1deg);
+  }
+  #material .container .card img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: all 1s ease-in-out;
+    /* filter: grayscale(100%); */
+  }
 
-#material .point {
-  text-align: center;
-  width: 80px;
-  height: 80px;
-  margin-left: 8px;
-  position: relative;
-  border-radius: 50%;
-  overflow: hidden;
-  transition: transform .2s; /* Animation */
-}
-.point:hover {
-  transform: scale(1.3); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
-}
+  #material .point {
+    text-align: center;
+    width: 80px;
+    height: 80px;
+    margin-left: 8px;
+    position: relative;
+    border-radius: 50%;
+    overflow: hidden;
+    transition: transform .2s; /* Animation */
+  }
+  .point:hover {
+    transform: scale(1.3); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+  }
 
-#material .description h5 {
-  text-align: center;
-  font-size: 16px;
-  margin-left: 24px;
-}
+  #material .description h5 {
+    text-align: center;
+    font-size: 16px;
+    margin-left: 24px;
+  }
 
-#material .head {
-  bottom: 0;
-  top: 0;
-  margin-left: auto;
-  margin-right: auto;
-  width: 280px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-}
+  #material .head {
+    bottom: 0;
+    top: 0;
+    margin-left: auto;
+    margin-right: auto;
+    width: 280px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
 
-#material .thin {
-  bottom: 0;
-  top: 0;
-  margin-left: auto;
-  margin-right: auto;
-  width: 280px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-  font-family: 'Titillium Web';
-  font-weight: bold;
-}
+  #material .thin {
+    bottom: 0;
+    top: 0;
+    margin-left: auto;
+    margin-right: auto;
+    width: 280px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'Titillium Web';
+    font-weight: bold;
+  }
 
-#material p {
-  bottom: 0;
-  top: 0;
-  margin-left: auto;
-  margin-right: auto;
-  width: 280px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-  text-align: justify;
-  text-justify: inter-word;
-}
+  #material p {
+    bottom: 0;
+    top: 0;
+    margin-left: auto;
+    margin-right: auto;
+    width: 280px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: justify;
+    text-justify: inter-word;
+  }
 
-#material .quality {
-  margin-top: 40px;
-  align-content: center;
-}
+  #material .quality {
+    margin-top: 40px;
+    align-content: center;
+  }
 
-#material .row .mtrl1{
-  margin-bottom: 30px;
-  margin-left: 64px;
-  height: 150px;
-  width: 250px;
-  border-radius: 30px;
-  background: url("../img/products/material1.png") bottom right no-repeat;
-  background-size: cover;
-  font-size: 20px;
-  font-weight: bold;
-  padding: 80px 0;
-  color: white; 
-  text-align: center;
-  /* overflow: hidden;
-  transition: transform .2s; */
-}
 
-#material .row .mtrl2{
-  margin-bottom: 30px;
-  margin-left: 64px;
-  height: 150px;
-  width: 250px;
-  border-radius: 30px;
-  background: url("../img/products/material2.png") bottom right no-repeat;
-  background-size: cover;
-  font-size: 20px;
-  font-weight: bold;
-  padding: 80px 0;
-  color: white; 
-  text-align: center;
-  overflow: hidden;
-  /* transition: transform .2s; */
-}
-
-#material .row .mtrl3{
-  margin-bottom: 30px;
-  margin-left: 64px;
-  height: 150px;
-  width: 250px;
-  border-radius: 30px;
-  background: url("../img/products/material3.png") bottom right no-repeat;
-  background-size: cover;
-  font-size: 20px;
-  font-weight: bold;
-  padding: 80px 0;
-  color: white; 
-  text-align: center;
-  overflow: hidden;
-  /* transition: transform .2s; */
-}
-
-#material .row .mtrl4{
-  margin-bottom: 30px;
-  margin-left: 64px;
-  height: 150px;
-  width: 250px;
-  border-radius: 30px;
-  background: url("../img/products/material4.png") bottom right no-repeat;
-  background-size: cover;
-  font-size: 20px;
-  font-weight: bold;
-  padding: 80px 0;
-  color: white; 
-  text-align: center;
-  overflow: hidden;
-  /* transition: transform .2s; */
-}
 
 }
 
@@ -1102,73 +1033,6 @@ display: flex;
 justify-content: center;
 align-items: center;
 flex-direction: column;
-}
-
-#material .mtrl1{
-margin-bottom: 50px;
-height: 200px;
-width: 300px;
-border-radius: 30px;
-background: url("../img/products/material1.png") bottom right no-repeat;
-background-size: cover;
-font-size: 26px;
-font-weight: bold;
-padding: 80px 0;
-color: white; 
-text-align: center;
-overflow: hidden;
-/* transition: transform .2s; */
-}
-
-#material .mtrl2{
-/* margin-right: 100px; */
-margin-bottom: 50px;
-height: 200px;
-width: 300px;
-border-radius: 30px;
-background: url("../img/products/material2.png") bottom right no-repeat;
-background-size: cover;
-padding: 80px 0;
-font-size: 26px;
-font-weight: bold; 
-color: white; 
-text-align: center;
-overflow: hidden;
-/* transition: transform .2s; */
-}
-
-#material .mtrl3{
-/* margin-right: 120px; */
-margin-bottom: 50px;
-height: 200px;
-width: 300px;
-border-radius: 30px;
-background: url("../img/products/material3.png") bottom right no-repeat;
-background-size: cover;
-padding: 80px 0;
-font-size: 26px;
-font-weight: bold; 
-color: white; 
-text-align: center;
-overflow: hidden;
-/* transition: transform .2s; */
-}
-
-#material .mtrl4{
-/* margin-right: 100px; */
-margin-bottom: 50px;
-height: 200px;
-width: 300px;
-border-radius: 30px;
-padding: 80px 0;
-background: url("../img/products/material4.png") bottom right no-repeat;
-background-size: cover;
-font-size: 26px;
-font-weight: bold; 
-color: white; 
-text-align: center;
-overflow: hidden;
-/* transition: transform .2s; */
 }
 
 /* Feature webview */
