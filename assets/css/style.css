@@ -47,6 +47,10 @@ section {
   
 }
 
+.btn:focus{
+  box-shadow: none;
+}
+
 @font-face {
   font-family: 'Cervanttis';
   font-style: normal;
