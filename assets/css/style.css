@@ -874,7 +874,7 @@ transform: scale(2.0); /* (150% zoom - Note: if the zoom is too large, it will g
     justify-content: center;
     align-items: center;
     overflow: hidden;
-    margin-top: 10rem;
+    margin-top: 15rem;
     transform: skew(-0.2deg);
   }
   #material .container .card {
@@ -1077,7 +1077,7 @@ border-radius: 10px;
 #feature {
   width: 100%;
   min-height: 100vh;
-  margin-top: 30rem;
+  margin-top: 60rem;
 }
 
 #feature .card{
@@ -1146,7 +1146,7 @@ margin-top: 20px;
 
 @media (max-width: 992px) {
 #contact {
-  margin-top: 40rem;
+  margin-top: 60rem;
 }
 
 #contact p {
