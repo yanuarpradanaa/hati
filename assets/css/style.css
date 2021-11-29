@@ -738,9 +738,9 @@ and (-webkit-min-device-pixel-ratio: 2) {
     font-weight: bold;
   }
 
-  #feature {
+  /* #feature {
     margin-top: 40rem !important;
-  }
+  } */
 
   #feature .card{
     border-radius: 10px !important;
@@ -753,9 +753,9 @@ and (-webkit-min-device-pixel-ratio: 2) {
     font-size: 20px;
   }
 
-  #contact {
+  /* #contact {
     margin-top: 40rem !important;
-  }
+  } */
 }
 
 /* Landscape tablet view ipad pro */
