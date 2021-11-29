@@ -608,7 +608,7 @@ and (-webkit-min-device-pixel-ratio: 1) {
   }
 }
 
-/* Potrait tablet view */
+/* Potrait tablet view ipad */
 @media only screen 
 and (min-device-width: 768px) 
 and (max-device-width: 1024px) 
@@ -659,51 +659,151 @@ and (-webkit-min-device-pixel-ratio: 1) {
   }
 }
 
-/* Landscape tablet view */
+/* Landscape tablet view ipad */
 @media only screen 
 and (min-device-width: 768px) 
 and (max-device-width: 1024px) 
 and (orientation: landscape) 
 and (-webkit-min-device-pixel-ratio: 1) {
-#about .carousel-content {
-  width: 50% !important;
-}
-#product {
-  height:auto;
-}
-#product .cover {
-  width: 100%;
-  max-width: 100%;
-  padding-right: 2rem;
-  padding-left: 2rem;
+
+  #about .carousel-content {
+    width: 50% !important;
+  }
+  #product {
+    height:auto;
+  }
+  #product .cover {
+    width: 100%;
+    max-width: 100%;
+    padding-right: 2rem;
+    padding-left: 2rem;
+  }
+
+  #product .content {
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  #material {
+    margin-top: 0px !important;
+  }
+
+  #material .thin {
+    font-family: 'Titillium Web';
+    font-weight: bold;
+  }
+
+  #feature {
+    width: 100%;
+    height: 100vh;
+    padding-right: 0;
+    padding-left: 0;
+    margin-right: auto;
+    margin-left: auto;
+    background-size: cover;
+    /* background-size: 100% auto !important; */
+    /* background: url(../img/content/honeycomb2.png) bottom right no-repeat !important; */
+  }
 }
 
-#product .content {
-  width: 100%;
-  margin-right: auto;
-  margin-left: auto;
+/* Potrait tablet view ipad */
+@@media only screen 
+and (min-device-width: 1024px) 
+and (max-device-width: 1024px) 
+and (orientation: portrait) 
+and (-webkit-min-device-pixel-ratio: 2) {
+
+  #intro .product img {
+    height: 100vh !important;
+  }
+
+  #product .cover .production img {
+    width: 100%;
+    height: 50vh;
+  }
+
+  #product .cover {
+    margin-top: 6rem;
+  }
+
+  #product .content {
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  #material .thin {
+    font-family: 'Titillium Web';
+    font-weight: bold;
+  }
+
+  #feature {
+    margin-top: 80rem !important;
+  }
+
+  #feature .card{
+    border-radius: 10px !important;
+    transition: all 0.3s ease-in-out !important;
+    height: 25rem !important;
+    margin-bottom: 25rem;
+  }
+
+  #feature .card .card-text{
+    font-size: 20px;
+  }
+
+  #contact {
+    margin-top: 70rem !important;
+  }
 }
 
-#material {
-  margin-top: 0px !important;
-}
+/* Landscape tablet view ipad */
+@media only screen 
+  and (min-device-width: 1366px) 
+  and (max-device-width: 1366px) 
+  and (orientation: landscape) 
+  and (-webkit-min-device-pixel-ratio: 2) {
 
-#material .thin {
-  font-family: 'Titillium Web';
-  font-weight: bold;
-}
+  #about .carousel-content {
+    width: 50% !important;
+  }
+  #product {
+    height:auto;
+  }
+  #product .cover {
+    width: 100%;
+    max-width: 100%;
+    padding-right: 2rem;
+    padding-left: 2rem;
+  }
 
-#feature {
-  width: 100%;
-  height: 100vh;
-  padding-right: 0;
-  padding-left: 0;
-  margin-right: auto;
-  margin-left: auto;
-  background-size: cover;
-  /* background-size: 100% auto !important; */
-  /* background: url(../img/content/honeycomb2.png) bottom right no-repeat !important; */
-}
+  #product .content {
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  #material {
+    margin-top: 0px !important;
+  }
+
+  #material .thin {
+    font-family: 'Titillium Web';
+    font-weight: bold;
+  }
+
+  #feature {
+    width: 100%;
+    height: 100vh;
+    padding-right: 0;
+    padding-left: 0;
+    margin-right: auto;
+    margin-left: auto;
+    background-size: cover;
+    /* background-size: 100% auto !important; */
+    /* background: url(../img/content/honeycomb2.png) bottom right no-repeat !important; */
+  }
 }
 
 
