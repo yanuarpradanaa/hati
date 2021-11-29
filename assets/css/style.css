@@ -753,9 +753,9 @@ and (-webkit-min-device-pixel-ratio: 2) {
     font-size: 20px;
   }
 
-  /* #contact {
-    margin-top: 40rem !important;
-  } */
+  #contact {
+    margin-top: -250px !important;
+  }
 }
 
 /* Landscape tablet view ipad pro */
