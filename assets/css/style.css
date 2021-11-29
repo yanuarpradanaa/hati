@@ -626,7 +626,7 @@ and (-webkit-min-device-pixel-ratio: 1) {
 
   #product .cover {
     margin-top: 6rem;
-    margin-left: 8rem;
+    /* margin-left: 8rem; */
   }
 
   #product .content {
