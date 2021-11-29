@@ -626,6 +626,7 @@ and (-webkit-min-device-pixel-ratio: 1) {
 
   #product .cover {
     margin-top: 6rem;
+    margin-left: 8rem;
   }
 
   #product .content {
@@ -708,7 +709,7 @@ and (-webkit-min-device-pixel-ratio: 1) {
 }
 
 /* Potrait tablet view ipad pro */
-@@media only screen 
+@media only screen 
 and (min-device-width: 1024px) 
 and (max-device-width: 1024px) 
 and (orientation: portrait) 
@@ -718,7 +719,7 @@ and (-webkit-min-device-pixel-ratio: 2) {
     height: 100vh !important;
   }
 
-  /* #product .cover .production img {
+  #product .cover .production img {
     width: 100%;
     height: 50vh;
   }
@@ -731,7 +732,7 @@ and (-webkit-min-device-pixel-ratio: 2) {
     width: 100%;
     margin-right: auto;
     margin-left: auto;
-  } */
+  }
 
   #material .thin {
     font-family: 'Titillium Web';
