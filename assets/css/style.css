@@ -739,7 +739,7 @@ and (-webkit-min-device-pixel-ratio: 2) {
   }
 
   #feature {
-    margin-top: 80rem !important;
+    margin-top: 40rem !important;
   }
 
   #feature .card{
@@ -754,7 +754,7 @@ and (-webkit-min-device-pixel-ratio: 2) {
   }
 
   #contact {
-    margin-top: 70rem !important;
+    margin-top: 40rem !important;
   }
 }
 
