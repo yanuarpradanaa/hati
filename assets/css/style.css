@@ -102,7 +102,7 @@ font-family: 'Titillium Web';
 color: #fff;
 }
 
-#product .content .head,
+#product .content .judul,
 #material .quality .head {
 font-family: 'Cervanttis';
 margin-bottom: 20px;
@@ -587,7 +587,7 @@ and (-webkit-min-device-pixel-ratio: 1) {
     flex-direction: column;
     align-content: center;
   }
-  #product .content .head {
+  #product .content .judul {
     bottom: 0;
     top: 0;
     margin-left: auto;
@@ -823,7 +823,7 @@ and (-webkit-min-device-pixel-ratio: 2) {
     margin-right: 15px;
   }
 
-  #product .content .head {
+  #product .content .judul {
     bottom: 0;
     top: 0;
     margin-left: auto;
