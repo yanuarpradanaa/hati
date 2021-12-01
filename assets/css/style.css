@@ -4,10 +4,6 @@ body {
   
 }
 
-html{
-  scroll-snap-type: y mandatory;
-}
-
 /* ----------- Non-Retina Screens ----------- */
 @media screen 
 and (min-device-width: 1200px) 
@@ -43,6 +39,10 @@ and (min-resolution: 192dpi) {
     font-weight: 400;
     src: local('Cervanttis'), url('https://fonts.cdnfonts.com/s/39155/Cervanttis-YjAa.woff') format('woff');
   }
+}
+
+html{
+  scroll-snap-type: y mandatory;
 }
 
 section {
@@ -104,8 +104,8 @@ color: #fff;
 
 #product .content .judul,
 #material .quality .head {
-font-family: 'Cervanttis';
-margin-bottom: 20px;
+  font-family: 'Cervanttis';
+  margin-bottom: 20px;
 }
 
 p {
