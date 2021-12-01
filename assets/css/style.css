@@ -18,7 +18,12 @@ and (-webkit-min-device-pixel-ratio: 1) {
     display: block;
     scroll-snap-align: start;
   }
-  
+  @font-face {
+    font-family: 'Cervanttis';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Cervanttis'), url('https://fonts.cdnfonts.com/s/39155/Cervanttis-YjAa.woff') format('woff');
+  }
 }
 
 /* ----------- Retina Screens ----------- */
@@ -31,6 +36,12 @@ and (min-resolution: 192dpi) {
     min-height: 100vh;
     display: block;
     scroll-snap-align: start;
+  }
+  @font-face {
+    font-family: 'Cervanttis';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Cervanttis'), url('https://fonts.cdnfonts.com/s/39155/Cervanttis-YjAa.woff') format('woff');
   }
 }
 
@@ -59,10 +70,10 @@ min-height:100vh;
 }
 
 @font-face {
-font-family: 'Cervanttis';
-font-style: normal;
-font-weight: 400;
-src: local('Cervanttis'), url('https://fonts.cdnfonts.com/s/39155/Cervanttis-YjAa.woff') format('woff');
+  font-family: 'Cervanttis';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Cervanttis'), url('https://fonts.cdnfonts.com/s/39155/Cervanttis-YjAa.woff') format('woff');
 }
 
 @import url(../font/Cervanttis.ttf);
@@ -91,9 +102,8 @@ font-family: 'Titillium Web';
 color: #fff;
 }
 
-#product .head,
-#materials .head,
-#material .head {
+#product .content .head,
+#material .quality .head {
 font-family: 'Cervanttis';
 margin-bottom: 20px;
 }
