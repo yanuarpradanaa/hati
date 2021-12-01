@@ -99,13 +99,6 @@ font-family: 'Titillium Web';
 color: #fff;
 }
 
-#product .content .judul,
-#material .quality .head {
-  font-family: 'Cervanttis';
-  margin-bottom: 20px;
-  color: red;
-}
-
 p {
 font-family: 'Titillium Web';
 }
@@ -570,6 +563,11 @@ justify-content: center;
 flex-direction: column;
 }
 
+#product .content .judul {
+  font-family: 'Cervanttis';
+  margin-bottom: 20px;
+}
+
 @media only screen 
 and (min-device-width: 768px) 
 and (max-device-width: 1024px) 
@@ -875,6 +873,9 @@ padding: 1rem;
 border-radius: calc(0.25rem - 1px);
 }
 
+
+/* Section Material */
+
 #material {
 margin: 0;
 min-height: 100vh;
@@ -883,6 +884,11 @@ display: flex;
 justify-content: center;
 align-items: center;
 margin-top: 10px;
+}
+
+#material .quality .head {
+  font-family: 'Cervanttis';
+  margin-bottom: 20px;
 }
 
 #material .container {
