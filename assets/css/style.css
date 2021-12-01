@@ -85,9 +85,6 @@ font-size: 50px;
 letter-spacing: 10px;
 }
 
-/* #product .thin,
-#material .thin, */
-
 #product .thin,
 #material .thin{
 font-family: 'Titillium Web';
@@ -106,6 +103,7 @@ color: #fff;
 #material .quality .head {
   font-family: 'Cervanttis';
   margin-bottom: 20px;
+  color: #45505b;
 }
 
 p {
