@@ -597,6 +597,7 @@ and (-webkit-min-device-pixel-ratio: 1) {
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    font-family: 'Cervanttis';
   }
   #product .content .thin {
     bottom: 0;
@@ -832,6 +833,7 @@ and (-webkit-min-device-pixel-ratio: 2) {
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    font-family: 'Cervanttis';
   }
   #product .content .thin {
     bottom: 0;
