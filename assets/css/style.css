@@ -21,6 +21,9 @@ body {
 .my-float{
 	margin-top:16px;
 }
+.float:hover{
+  color: #45505b;
+}
 .my-float:hover{
   color: #45505b;
 }
