@@ -22,10 +22,10 @@ body {
 	margin-top:16px;
 }
 .float:hover{
-  color: #45505b;
+  color: #FFF;
 }
 .my-float:hover{
-  color: #45505b;
+  color: #FFF;
 }
 .bounce {
     animation: bounce 2s infinite;
